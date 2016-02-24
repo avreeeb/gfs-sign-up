@@ -62,7 +62,7 @@ html {
   width: 0px;
   height: 0px;
   position: absolute;
-  border-style: solid;
+  border-style: none;
   border-width: 0.5em 0.469em 0 0.469em;
   border-color: #4daf7c transparent transparent transparent;
   top: 6.25em;
@@ -79,7 +79,7 @@ html {
   width: 0px;
   height: 0px;
   position: absolute;
-  border-style: solid;
+  border-style: none;
   border-width: 0.5em 0.469em 0 0.469em;
   border-color: #404241 transparent transparent transparent;
   top: 12.5em;
