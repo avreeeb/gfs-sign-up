@@ -24,10 +24,6 @@ h1 {
 }
 
 
-.form-b {
-   @include form($black)
-}
-
 .form-w {
    @include form($white)
 }
@@ -37,21 +33,29 @@ h1 {
   width: 100%;
 }
 
-.yellow-box {
-  background-color: #ffd710;
+.box-1 {
+@include box($grey-1);
+top: 6.25em;
 }
 
-.yellow-box::after {
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-style: none;
-  border-width: 0.5em 0.469em 0 0.469em;
-  border-color: #4daf7c transparent transparent transparent;
-  top: 6.25em;
-  left: 50%;
-  margin-left: -0.496em;
+.box-2 {
+@include box($grey-2);
+top: 12.5em;
+}
+
+.box-3 {
+@include box($grey-3);
+top: 18.75em;
+}
+
+.box-4 {
+@include box($grey-4);
+top: 25em;
+}
+
+.box-5 {
+@include box($grey-5);
+top: 31.25em;
 }
 
 .black-box {
@@ -80,7 +84,7 @@ h1 {
   display: table-cell;
   vertical-align: middle;
   cursor: pointer;
-  height: 1.25em;
+  height: 2.25em;
   width: 13.125em;
   font-size: 2em;
   text-align:center;

@@ -24,3 +24,8 @@
   font-family: "Bebas Neue", Arial;
   color: $text-color;
   }
+  
+  @mixin box($color) {
+  background-color: $color;
+  }
+  
