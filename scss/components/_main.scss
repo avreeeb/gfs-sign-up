@@ -71,6 +71,27 @@ h1 {
   margin-left: -0.496em;
 }
 
+.login {
+  background-color: #ffd710;
+  display: table;
+}
+
+.login span {
+  display: table-cell;
+  vertical-align: middle;
+  cursor: pointer;
+  height: 1.25em;
+  width: 13.125em;
+  font-size: 2em;
+  text-align:center;
+  border: 0;
+  outline: 0;
+  color: #fff;
+  background: transparent;
+  margin-left: 2.1875em;
+  margin-top: 1em;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
 input {
   height: 1.25em;
@@ -85,6 +106,7 @@ input {
   margin-top: 1em;
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 
 ::placeholder {
   color: #fff;
