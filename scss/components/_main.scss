@@ -58,6 +58,41 @@ top: 25em;
 top: 31.25em;
 }
 
+.box-6 {
+@include box($grey-6);
+top: 37.5em;
+}
+
+.box-7 {
+@include box($grey-7);
+top: 43.75em;
+}
+
+.box-8 {
+@include box($grey-8);
+top: 50em;
+}
+
+.box-9 {
+@include box($grey-9);
+top: 56.25em;
+}
+
+.box-10 {
+@include box($grey-10);
+top: 62.55em;
+}
+
+.box-11 {
+@include box($grey-11);
+top: 68.75em;
+}
+
+.box-12 {
+@include box($grey-12);
+top: 75em;
+}
+
 .black-box {
   background-color: #000000;
 }
