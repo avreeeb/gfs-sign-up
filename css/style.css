@@ -46,7 +46,7 @@ h1 {
   width: 35em;
   background: #fff;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
