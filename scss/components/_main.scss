@@ -10,6 +10,7 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+	color:000000;
 }
 
 
@@ -17,18 +18,17 @@ html {
 	box-sizing: inherit;
 }
 
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
-.form {
-  height: 18.75em;
-  width: 25em;
-  background: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  text-transform: uppercase;
-  font-family: "Bebas Neue", Arial;
-  color: #fff;
+
+.form-b {
+   @include form($black)
+}
+
+.form-w {
+   @include form($white)
 }
 
 .form > div {
@@ -83,7 +83,7 @@ input {
   border:0.033em #fff solid;
   margin-left: 2.1875em;
   margin-top: 1em;
-  font-family: "Bebas Neue", Arial;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 ::placeholder {

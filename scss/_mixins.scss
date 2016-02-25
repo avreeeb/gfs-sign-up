@@ -12,21 +12,15 @@
     transition: $transition-property $transition-time $method;
 }
 
-// Makes an element visually hidden, but accessible.
-// @see http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-@mixin element-invisible {
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;  
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
-// Turns off the element-invisible effect.
-@mixin element-invisible-off {
-  position: static !important;
-  clip: auto;
-  height: auto;
-  width: auto;
-  overflow: auto;
-}
+@mixin form($text-color){        //⬅︎ The argument passed is in the round brackets
+  height: 18.75em;
+  width: 25em;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-transform: uppercase;
+  font-family: "Bebas Neue", Arial;
+  color: $text-color;
+  }
